@@ -1,0 +1,94 @@
+.bg_image {
+    background-image: url("../../assets/imgs/background_login.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    text-align: center;
+    background: bisque;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 0px #000;
+}
+
+.box h2 {
+    color: black;
+}
+
+.box input[type="password"],
+.box input[type="text"] {
+    background: none;
+    outline: none;
+    width: 280px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border: solid 1px #002cff;
+    transition: 1s;
+}
+
+.box input[type="password"]:focus,
+.box input[type="text"]:focus {
+    width: 280px;
+    border-color: chartreuse;
+    transition: 1s;
+}
+
+.box input[type="submit"] {
+    background: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 10px 0px;
+    border: solid 2px #002cff;
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+    background: #002cff;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.signUpForm {
+    width: 500px;
+    height: 500px;
+    margin-left: 60vw;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.forgetPass {
+    width: 400px;
+    height: 410px;
+    margin-left: 60vw;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.col_half {
+    width: 50%;
+    float: left;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.inputText {
+    width: "250px";
+    border-radius: "5%";
+    height: "40px";
+}
